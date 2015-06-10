@@ -1,5 +1,5 @@
 Template.postsList.helpers({
   posts: function () {
-    return Posts.find(); // Grab the posts from the database.....
+    return Posts.find({}, {sort: {submitted: -1}}); // Grab the posts from the database.....
   }
 });
