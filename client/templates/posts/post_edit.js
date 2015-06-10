@@ -14,9 +14,10 @@ Template.postEdit.events({
         // display the error to the user
         alert(error.reason);
       } else {
-        Router.got('postPage', {_id: currentPostId});
+        Router.go('postPage', {_id: currentPostId});
       }
     });
+
   },
 
       'click .delete': function(e) {
