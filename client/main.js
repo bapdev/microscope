@@ -1,3 +1,0 @@
-//////////////////////////
-Meteor.subscribe('posts'); ///Subscribe to /server/publications.js///
-/////////////////////////
